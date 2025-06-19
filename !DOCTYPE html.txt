@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI GURU: Your Path to Business Ignition</title>
-    <!-- Google Fonts: Montserrat for headings, Roboto for body text -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        /* Basic Reset & Body Styling */
-        body {
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4; /* Light grey background */
-            color: #333; /* Dark grey text */
-            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-        }
 
-        /* Main container for content */
-        .container {
-            max-width: 800px; /* Max width for readability */
-            margin: 20px auto; /* Center the container with vertical margin */
-            padding: 20px;
-            background-color: #fff; /* White background for content area */
-            border-radius: 8px; /* Slightly rounded corners */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        }
-
-        /* Header Section Styling */
-        header {
-            display: flex; /* Enable flexbox for logo and text alignment */
-            align-items: center; /* Vertically center items */
-            justify-content: center; /* Horizontally center the combined logo and text block */
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee; /* Light separator line */
-            margin-bottom: 30px;
-        }
-
-        /* Logo styling within the header */
-        .header-logo {
-            max-width: 80px; /* Set maximum width for the logo */
-            height: auto; /* Maintain aspect ratio */
             margin-right: 20px; /* Space between logo and text */
             border-radius: 50%; /* Make logo rounded, assuming it's a square image */
             box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Small shadow for depth */
