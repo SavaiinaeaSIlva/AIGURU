@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI GURU: Your Path to Business Ignition</title>
+    <!-- Google Fonts: Montserrat for headings, Roboto for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset & Body Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark grey text */
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+
+        /* Main container for content */
+        .container {
+            max-width: 800px; /* Max width for readability */
+            margin: 20px auto; /* Center the container with vertical margin */
+            padding: 20px;
+            background-color: #fff; /* White background for content area */
+            border-radius: 8px; /* Slightly rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        /* Header Section Styling */
+        header {
+            display: flex; /* Enable flexbox for logo and text alignment */
+            align-items: center; /* Vertically center items */
+            justify-content: center; /* Horizontally center the combined logo and text block */
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee; /* Light separator line */
+            margin-bottom: 30px;
+        }
+
+        /* Logo styling within the header */
+        .header-logo {
+            max-width: 80px; /* Set maximum width for the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Space between logo and text */
+            border-radius: 50%; /* Make logo rounded, assuming it's a square image */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Small shadow for depth */
+        }
+
+        /* Container for header text to control its centering relative to itself */
+        .header-text-content {
+            text-align: center; /* Center the text within this block */
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif; /* Distinct font for main title */
+            font-size: 2.5em;
+            color: #2c3e50; /* Dark blue-grey for titles */
+            margin-bottom: 10px;
+            margin-top: 0; /* Reset default margin to control spacing with logo */
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #7f8c8d; /* Muted grey for tagline */
+            margin-top: 0; /* Reset default margin */
+            font-style: italic; /* Apply italic style here */
+            font-weight: normal; /* Ensure it's not bolded */
+        }
+
+        /* General Section Styling */
+        .section {
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+
+        .section h2 {
+            font-family: 'Montserrat', sans-serif; /* Distinct font for section headings */
+            font-size: 1.8em;
+            color: #34495e; /* Darker blue-grey for section titles */
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db; /* Blue underline for emphasis */
+            padding-bottom: 5px;
+        }
+
+        .section p, .section ul {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .section ul {
+            list-style-type: disc; /* Standard disc bullets for lists */
+            margin-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Call to Action Button Styling */
+        .cta-button-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-button {
+            display: inline-block; /* Allows padding and margin */
+            background-color: #3498db; /* Bright blue button */
+            color: #fff; /* White text */
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        /* Support & Contact Section */
+        .support-contact {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #eee; /* Light separator line */
+            margin-top: 30px;
+        }
+
+        .support-contact p {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .support-contact a {
+            color: #3498db; /* Blue links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .support-contact a:hover {
+            text-decoration: underline; /* Underline on hover for links */
+        }
+
+        /* Responsive Design Adjustments */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column; /* Stack logo and text vertically on small screens */
+                justify-content: center; /* Center horizontally when stacked */
+                padding-top: 20px; /* Add some top padding when stacked */
+            }
+            .header-logo {
+                margin-right: 0; /* Remove side margin when stacked */
+                margin-bottom: 15px; /* Add bottom margin when stacked */
+                max-width: 60px; /* Smaller logo on small screens */
+            }
+            .container {
+                margin: 10px; /* Smaller margins on small screens */
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 1.8em; /* Smaller main title */
+            }
+            .section h2 {
+                font-size: 1.5em; /* Smaller section titles */
+            }
+            .cta-button {
+                font-size: 1em;
+                padding: 12px 25px; /* Smaller button on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- AI Guru Logo -->
+            <img src="High-Resolution-Logo-Black-on-Transparent-Background.png" alt="AI Guru Logo" class="header-logo">
+            <div class="header-text-content">
+                <h1>AI GURU: Your Free Path to Business Ignition</h1>
+                <p>100% free foundational knowledge, delivered by your AI Guru, and 100% easier than you thought.</p>
+            </div>
+        </header>
+
+        <section class="intro">
+            <p>Do you have a dream of starting a business? Do you own a laptop or a smartphone with AI? If you're feeling overwhelmed by the process, unsure where to begin, or if legalities like LLCs seem like a maze, you're not alone. As your AI Guru, I’ve created this free, AI-powered guide to cut through the confusion and light your path to entrepreneurship.</p>
+            <p>Here are 3 steps your AI Guru recommends to take when starting a business and building the knowledge to do it all RIGHT NOW:</p>
+        </section>
+
+        <section class="section" id="section1">
+            <h2>1) Unlock the Power in Your Pocket</h2>
+            <p>You might be shocked to discover that much of the knowledge you thought required years of school or costly online courses is now instantly accessible to you. All you need is your phone or laptop and AI. Do you truly grasp the power you hold?</p>
+            <p>Imagine asking AI, "How do you start an LLC?" and getting all the detailed information you could possibly need, laid out right before your eyes. Now, if you're like me, your AI Guru, and prefer getting straight to the point without wading through paragraphs, just add this to your prompt: "<strong>Simplify it for me, no big words and 3-4 sentences max each bullet point.</strong>"</p>
+            <p>Try it. I guarantee whatever you want to learn will be broken down into terms so simple, anyone can understand. Just a year ago, I was typing with two index fingers. Now, thanks to AI, I've taught myself to code a basic webpage (I'm still learning for fun, but it's a great skill!). I can also navigate basic software like Word and Excel, and I've even started my own business. When I finish my current Healthcare certification, I'll be ready to take it even further.</p>
+        </section>
+
+        <section class="section" id="section2">
+            <h2>2) Learn the Power of Analyzing Data</h2>
+            <p>So, you've got an idea, or maybe you're still looking for one. How do you know if it's a good idea? This is where the power of data analysis, supercharged by AI, comes in. Forget needing to be a statistics guru or hiring expensive market researchers.</p>
+            <p>Your AI-enabled device can help you:</p>
+            <ul>
+                <li><strong>Spot Trends:</strong> Ask AI to analyze public data (e.g., Google Trends, social media sentiment) to discover what people are genuinely interested in right now, or what problems they're frequently discussing.</li>
+                <li><strong>Validate Ideas:</strong> Instead of guessing, use AI to search for existing solutions, identify gaps in the market, or even predict potential demand for your specific product or service.</li>
+                <li><strong>Understand Your Audience:</strong> Get insights into who your potential customers are, what they like, and where they spend their time online.</li>
+            </ul>
+            <p>With just a few smart prompts, you can gain insights that would have taken weeks or months of manual research. This isn't just about finding facts; it's about seeing opportunities and making informed decisions that give your business a real edge.</p>
+        </section>
+
+        <section class="section" id="section3">
+            <h2>3) The Drive Is Already Within You</h2>
+            <p>If you're reading this, if you're searching for how to start a business with no money, and if you're hungry for the knowledge to break into an industry with your idea, then listen closely: that drive is already inside you.</p>
+            <p>You don't need another convoluted course or a "free e-commerce store" gimmick. The raw material for success isn't external; it's in your soul. You just need to go out there and get it.</p>
+            <p>When you combine that internal hunger with the power of AI at your fingertips, you possess the two most potent forces a human can wield: unwavering determination and access to virtually all the world's knowledge. I know this firsthand. I came from circumstances where I had nothing, and I made something happen.</p>
+            <p>There's a hard truth I needed to hear when I was at my lowest: "Nobody is coming for you. So, get up and go get it." If that doesn't ignite something deep inside you, then perhaps this path isn't for you. But if it moves you, if you feel that fire, then I, your AI Guru, believe in you. You have everything you need in your hand right now. There's nothing anyone else has that you don't.</p>
+            <p>You've got this. Now go make something happen.</p>
+        </section>
+
+        <div class="cta-button-container">
+            <p>Ready to start? Download your free AI-Powered Business Jumpstart Guide below and begin building your dream today!</p>
+            <a href="https://hawaiimedic-my.sharepoint.com/:w:/g/personal/ssilva25_hmi_edu/ETA-c1o_lAFJt2k0F3swmkMByCpumomZYbFWNx5gT29gsw?e=wXgZcz" class="cta-button" target="_blank" rel="noopener noreferrer">DOWNLOAD YOUR FREE GUIDE HERE (PDF LINK)</a>
+        </div>
+
+        <section class="support-contact">
+            <p>Did you find this guide helpful? If you'd like to support this mission and help us empower more aspiring entrepreneurs, you can:</p>
+            <p><a href="https://coff.ee/savaiinaeasilva" target="_blank" rel="noopener noreferrer">Support Your AI Guru on Buy Me a Coffee</a></p>
+            <p>If you have any questions or are in need of more professional services, email me personally:</p>
+            <p><a href="mailto:savaiinaeasilva2@gmail.com">savaiinaeasilva2@gmail.com</a></p>
+        </section>
+    </div>
+</body>
+</html>
